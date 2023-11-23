@@ -1,0 +1,16 @@
+# ~/.config/ironbar/config.toml
+
+height = 32
+position = "top"
+
+[[center]]
+format = "%H:%M    %a %d %B %Y"
+type = "clock"
+
+[[end]]
+format = "{percentage}%"
+type = "upower"
+
+[[start]]
+favorites = ["1", "2", "3", "4"]
+type = "workspaces"
